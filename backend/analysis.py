@@ -1,0 +1,13 @@
+import pandas as pd
+train = pd.read_csv('split/train2.csv')
+test = pd.read_csv('split/test2.csv')
+valid = pd.read_csv('split/valid2.csv')
+total = pd.concat([train,test,valid])
+print(total.head())
+print(total.info())
+print(train.info())
+print(total['label'].value_counts())
+print(train['label'].value_counts())
+print(test['label'].value_counts())
+print(valid['label'].value_counts())
+print(total['text_a'].map(len).describe())
