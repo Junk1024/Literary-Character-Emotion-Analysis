@@ -2,24 +2,24 @@
 
 ## 1、系统目录架构（2023.5.29 已完结）：
 
-![image](https://github.com/Junk1024/Literary-Character-Emotion-Analysis-System/img/content.png)
+![image](https://github.com/Junk1024/Literary-Character-Emotion-Analysis-System/blob/main/img/content.png)
 
 ## 2、系统功能介绍展示
 
 登录界面用户信息与本地数据库绑定，包括注册登录增删改查。
-![image](https://github.com/Junk1024/Literary-Character-Emotion-Analysis-System/img/load.png)
+![image](https://github.com/Junk1024/Literary-Character-Emotion-Analysis-System/blob/main/img/load.png)
 后台首页，可见功能菜单，该系统有两个角色，不同角色功能菜单不同，普通用户无用户管理菜单，该系统没有设置单独的鉴权参数，通过性别来实现简单的不同菜单展示，根据数据库中用户的性别不同返回不同的菜单。
-![image](https://github.com/Junk1024/Literary-Character-Emotion-Analysis-System/img/index.png)
+![image](https://github.com/Junk1024/Literary-Character-Emotion-Analysis-System/blob/main/img/index.png)
 数据可视化界面，展示情感分析模型的数据集的信息，还可加载不同用户的用户名
-![image](https://github.com/Junk1024/Literary-Character-Emotion-Analysis-System/img/data.png)
+![image](https://github.com/Junk1024/Literary-Character-Emotion-Analysis-System/blob/main/img/data.png)
 用户信息管理界面，对本地数据库的操作，采取了分页处理
-![image](https://github.com/Junk1024/Literary-Character-Emotion-Analysis-System/img/info.png)
+![image](https://github.com/Junk1024/Literary-Character-Emotion-Analysis-System/blob/main/img/info.png)
 单文本情感分析界面
-![image](https://github.com/Junk1024/Literary-Character-Emotion-Analysis-System/img/sentence.png)
+![image](https://github.com/Junk1024/Literary-Character-Emotion-Analysis-System/blob/main/img/sentence.png)
 文本级别人物情感分析界面
-![image](https://github.com/Junk1024/Literary-Character-Emotion-Analysis-System/img/article.png)
+![image](https://github.com/Junk1024/Literary-Character-Emotion-Analysis-System/blob/main/img/article.png)
 上传 TXT 文档后点击提取人物名单，会将提取结果在前端进行分页展示，可进一步进行文本提取和人物情感分析
-![image](https://github.com/Junk1024/Literary-Character-Emotion-Analysis-System/img/rolelist.png)
+![image](https://github.com/Junk1024/Literary-Character-Emotion-Analysis-System/blob/main/img/rolelist.png)
 最终会将人物的所有文本情感分析的分布展示，并基于分布返回人物标签
 
 ## 系统启动
